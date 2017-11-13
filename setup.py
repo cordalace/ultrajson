@@ -55,14 +55,14 @@ try:
 finally:
     f.close()    
     
-setup (name = 'ujson',
-       version = get_version(),
+setup (name = 'ujsongp',
+       version = get_version() + '.1',
        description = "Ultra fast JSON encoder and decoder for Python",
        long_description = README,
        ext_modules = [module1],
        author="Jonas Tarnstrom",
        author_email="jonas.tarnstrom@esn.me",
-       download_url="http://github.com/esnme/ultrajson",
+       download_url="https://github.com/cordalace/ultrajson",
        license="BSD License",
        platforms=['any'],      
        url="http://www.esn.me",
